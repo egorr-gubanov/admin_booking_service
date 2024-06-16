@@ -16,8 +16,7 @@ const visitorsData = [
 const VisitorsPage = () => {
     return (
         <div className="visitors-page">
-            <h1>МЕРОПРИЯТИЯ</h1>
-            <h2>Посетители</h2>
+            <h1>Посетители</h1>
             <div className="visitors-grid">
                 {visitorsData.map(event => (
                     <div key={event.id} className="visitor-card">
